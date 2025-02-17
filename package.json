@@ -1,0 +1,10 @@
+{
+  "name": "avo-heroicons",
+  "version": "1.0.0",
+  "scripts": {
+    "export": "node scripts/export-heroicons.js"
+  },
+  "dependencies": {
+    "heroicons": "^2.2.0"
+  }
+}
