@@ -2,9 +2,12 @@
   "name": "avo-heroicons",
   "version": "1.0.0",
   "scripts": {
-    "export": "node scripts/export-heroicons.js"
+    "export": "npm run export:heroicons && npm run export:tabler",
+    "export:heroicons": "node scripts/export-heroicons.js",
+    "export:tabler": "node scripts/export-tabler-icons.js"
   },
   "dependencies": {
+    "@tabler/icons": "^3.35.0",
     "heroicons": "^2.2.0"
   }
 }
