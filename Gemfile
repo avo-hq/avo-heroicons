@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in avo-heroicons.gemspec.
+# Specify your gem's dependencies in avo-icons.gemspec.
 gemspec
 
 gem "puma"

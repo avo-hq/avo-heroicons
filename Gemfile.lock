@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    avo-heroicons (0.1.1)
+    avo-icons (0.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -75,6 +75,7 @@ GEM
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     sqlite3 (2.7.4-arm64-darwin)
+    sqlite3 (2.7.4-x86_64-linux-gnu)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.2.0)
@@ -84,9 +85,10 @@ GEM
 
 PLATFORMS
   arm64-darwin
+  x86_64-linux
 
 DEPENDENCIES
-  avo-heroicons!
+  avo-icons!
   puma
   rubocop-rails-omakase
   sqlite3

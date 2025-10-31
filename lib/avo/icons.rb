@@ -1,8 +1,8 @@
-require "avo/heroicons/version"
-require "avo/heroicons/railtie"
+require "avo/icons/version"
+require "avo/icons/railtie"
 
 module Avo
-  module Heroicons
+  module Icons
     def self.root
       Pathname.new File.expand_path('..', __dir__)
     end

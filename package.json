@@ -1,5 +1,5 @@
 {
-  "name": "avo-heroicons",
+  "name": "avo-icons",
   "version": "1.0.0",
   "scripts": {
     "export": "npm run export:heroicons && npm run export:tabler",

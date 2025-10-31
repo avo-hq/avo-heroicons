@@ -1,5 +1,5 @@
 module Avo
-  module Heroicons
+  module Icons
     class Railtie < ::Rails::Railtie
     end
   end
