@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    avo-icons (0.1.2)
+    avo-icons (0.1.0)
 
 GEM
   remote: https://rubygems.org/
