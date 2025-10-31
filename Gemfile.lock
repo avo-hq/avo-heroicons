@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    avo-icons (0.1.0)
+    avo-icons (0.1.1)
+      inline_svg
 
 GEM
   remote: https://rubygems.org/
@@ -27,12 +28,19 @@ GEM
     drb (2.2.3)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
+    inline_svg (1.10.0)
+      activesupport (>= 3.0)
+      nokogiri (>= 1.6)
     json (2.15.2)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
     minitest (5.26.0)
     nio4r (2.7.4)
+    nokogiri (1.18.10-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.10-x86_64-linux-gnu)
+      racc (~> 1.4)
     parallel (1.27.0)
     parser (3.3.10.0)
       ast (~> 2.4.1)
